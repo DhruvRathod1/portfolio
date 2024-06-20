@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Health and Fitness App",
+    des: "LiveLong: Your Ultimate Fitness Companion",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    iconLists: ["/flutter.svg", "/firebase.svg", "/api.svg", "/three.svg", "/fm.svg"],
+    link: "https://github.com/DhruvRathod1/FitnessApp_livelong_flutter",
   },
   {
     id: 2,
