@@ -75,7 +75,7 @@ export const projects = [
     title: "Health and Fitness App",
     des: "LiveLong: Your Ultimate Fitness Companion",
     img: "/p1.svg",
-    iconLists: ["/flutter.svg", "/firebase.svg", "/api.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/flutter.svg", "/firebase.svg", "/api.svg"],
     link: "https://github.com/DhruvRathod1/FitnessApp_livelong_flutter",
   },
   {
