@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "Health and Fitness App",
     des: "LiveLong: Your Ultimate Fitness Companion",
-    img: "/p1.svg",
+    img: "/p1o.svg",
     iconLists: ["/flutter.svg", "/firebase.svg", "/api.svg"],
     link: "https://github.com/DhruvRathod1/FitnessApp_livelong_flutter",
   },
@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "ChatApplication-Java ",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    img: "/p2.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://github.com/DhruvRathod1/ChatApplication_Java",
   },
@@ -173,8 +173,8 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Wordpress Developer Intern At - Infoiconic",
+    desc: "Developed visually appealing and user-friendly website designs that provide seamless user experience. Developed websites using WordPress.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
@@ -187,10 +187,10 @@ export const workExperience = [
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Graphic Designer - Fiverr",
+    desc: "Delivering exceptional design solutions that elevate brands and captivate audiences.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp3.1.svg",
   },
   {
     id: 4,
