@@ -153,13 +153,13 @@ export const companies = [
   {
     id: 3,
     name: "Flutter",
-    img: "/host.svg",
+    img: "/flutter.svg",
     nameImg: "/hostName.svg",
   },
   {
     id: 4,
     name: "Firebase",
-    img: "/s.svg",
+    img: "/firebase.svg",
     nameImg: "/streamName.svg",
   },
   {
