@@ -141,32 +141,68 @@ export const companies = [
   {
     id: 1,
     name: "ReactJS",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    img: "/React-icon.svg",
+    
   },
   {
     id: 2,
     name: "NodeJS",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    img: "/nodejs-3.svg",
+    
   },
   {
     id: 3,
     name: "Flutter",
     img: "/flutter.svg",
-    nameImg: "/hostName.svg",
+   
   },
   {
     id: 4,
     name: "Firebase",
     img: "/firebase.svg",
-    nameImg: "/streamName.svg",
+    
   },
   {
     id: 5,
     name: "Anguler",
     img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    
+  },
+  {
+    id: 6,
+    name: "java",
+    img: "/java.svg",
+    
+  },
+  {
+    id: 7,
+    name: "Mongodb",
+    img: "/mongodb.svg",
+    
+  },
+  {
+    id: 8,
+    name: "HTML",
+    img: "/html-1.svg",
+    
+  },
+  {
+    id: 9,
+    name: "CSS",
+    img: "/css-3.svg",
+    
+  },
+  {
+    id: 10,
+    name: "JS",
+    img: "/javascript-1.svg",
+    
+  },
+  {
+    id: 11,
+    name: "Git",
+    img: "/git.svg",
+    
   },
 ];
 
