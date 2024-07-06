@@ -165,8 +165,8 @@ export const companies = [
   },
   {
     id: 5,
-    name: "Anguler",
-    img: "/dock.svg",
+    name: "Docker",
+    img: "/docker1.svg",
     
   },
   {
@@ -202,7 +202,7 @@ export const companies = [
   {
     id: 11,
     name: "Git",
-    img: "/git.svg",
+    img: "/git-icon.svg",
     
   },
   {
