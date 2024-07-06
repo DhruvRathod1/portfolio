@@ -156,6 +156,7 @@ export const companies = [
     img: "/flutter.svg",
    
   },
+  
   {
     id: 4,
     name: "Firebase",
@@ -177,7 +178,7 @@ export const companies = [
   {
     id: 7,
     name: "Mongodb",
-    img: "/mongodb.svg",
+    img: "/mongodb-1.svg",
     
   },
   {
@@ -203,6 +204,12 @@ export const companies = [
     name: "Git",
     img: "/git.svg",
     
+  },
+  {
+    id: 11,
+    name: "dart",
+    img: "/dart.svg",
+
   },
 ];
 
