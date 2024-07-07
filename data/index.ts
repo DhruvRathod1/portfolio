@@ -286,4 +286,14 @@ export const socialMedia = [
     img: "/link.svg",
     link:"https://linkedin.com/in/dhruv-rathod1",
   },
+  {
+    id: 4,
+    img: "/instagram-2016-6.svg",
+    link:"https://linkedin.com/in/dhruv-rathod1",
+  },
+  {
+    id: 5,
+    img: "/link.svg",
+    link:"https://linkedin.com/in/dhruv-rathod1",
+  },
 ];
