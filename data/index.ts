@@ -284,6 +284,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    link:"https://github.com/DhruvRathod1",
+    link:"https://linkedin.com/in/dhruv-rathod1",
   },
 ];
