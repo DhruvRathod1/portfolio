@@ -206,9 +206,33 @@ export const companies = [
     
   },
   {
-    id: 11,
-    name: "dart",
-    img: "/dart.svg",
+    id: 12,
+    name: "C",
+    img: "/c-1.svg",
+
+  },
+  {
+    id: 13,
+    name: "C++",
+    img: "/c++.svg",
+
+  },
+  {
+    id: 14,
+    name: "c#",
+    img: "/csharp.svg",
+
+  },
+  {
+    id: 15,
+    name: ".net",
+    img: "/dot-net-core-7.svg",
+
+  },
+  {
+    id: 16,
+    name: "Figma",
+    img: "/figma-icon.svg",
 
   },
 ];
