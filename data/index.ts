@@ -237,6 +237,12 @@ export const companies = [
     img: "/figma-icon.svg",
 
   },
+  {
+    id: 17,
+    name: "Wordpress",
+    img: "/wordpress.svg",
+
+  },
 ];
 
 export const workExperience = [

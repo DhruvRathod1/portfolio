@@ -1,7 +1,6 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
@@ -20,19 +19,23 @@ const RecentProjects = () => {
           >
             <PinContainer
               title="Projects"
-              href="https://twitter.com/mannupaaji"
+              href={item.link} // Ensure item.link is correctly set in your data
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <img
+                    src="/bg.png"
+                    alt="Background"
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
                 </div>
                 <img
                   src={item.img}
-                  alt="cover"
-                  className="z-10 absolute bottom-0"
+                  alt="Cover"
+                  className="z-10 absolute bottom-0 w-full h-auto object-contain"
                 />
               </div>
 
@@ -60,13 +63,18 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-1.5" />
+                      <img src={icon} alt={`icon${index}`} className="p-1.5" />
                     </div>
                   ))}
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <a href="https://github.com/DhruvRathod1" className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <a
+                    href={item.link}
+                    className="flex lg:text-xl md:text-xs text-sm text-purple"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Check Live Site
                   </a>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
