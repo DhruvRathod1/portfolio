@@ -3,7 +3,7 @@ import { link } from "fs";
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Skills", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -77,7 +77,7 @@ export const projects = [
     title: "Health and Fitness App",
     des: "LiveLong: Your Ultimate Fitness Companion",
     img: "/p1o.svg",
-    iconLists: ["/flutter.svg", "/firebase.svg", "/api.svg"],
+    iconLists: ["/flutter.svg", "/firebase.svg", "/api.svg", "/dart.svg"],
     link: "https://github.com/DhruvRathod1/FitnessApp_livelong_flutter",
   },
   {
