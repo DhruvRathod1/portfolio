@@ -85,7 +85,7 @@ export const projects = [
     title: "ChatApplication-Java ",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/java.svg", ],
     link: "https://github.com/DhruvRathod1/ChatApplication_Java",
   },
   {
