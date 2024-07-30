@@ -1,5 +1,4 @@
 import { FaLocationArrow } from "react-icons/fa6";
-
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 
@@ -36,8 +35,8 @@ const Footer = () => {
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Dhruv Rathod
         </p>
-
-        <div className="flex items-center md:gap-3 gap-6">
+      
+        <div className="flex items-center md:gap-3 gap-6 mt-6 md:mt-0">
           {socialMedia.map((info) => (
             <a
               key={info.id}
