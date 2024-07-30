@@ -1,14 +1,11 @@
-import React, { forwardRef } from "react";
-import PropTypes from 'prop-types';
+"use client";
+
+import React from "react";
 import { companies } from "@/data";
 
-const Clients = forwardRef((props, ref) => {
-  if (!Array.isArray(companies)) {
-    return null; // or handle error as needed
-  }
-
+const Clients = () => {
   return (
-    <section id="testimonials" ref={ref} className="py-20">
+    <section id="testimonials" className="py-20">
       <h1 className="heading text-center mb-10">
         My
         <span className="text-purple"> Tech Stack</span>
@@ -32,16 +29,6 @@ const Clients = forwardRef((props, ref) => {
       </div>
     </section>
   );
-});
-
-Clients.propTypes = {
-  companies: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
-      name: PropTypes.string.isRequired,
-      img: PropTypes.string.isRequired,
-    })
-  ),
 };
 
 export default Clients;
